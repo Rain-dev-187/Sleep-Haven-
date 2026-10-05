@@ -1,0 +1,8 @@
+# Umum
+.DS_Store
+Thumbs.db
+.env
+
+# Editor
+.vscode/
+.idea/

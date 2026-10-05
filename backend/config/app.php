@@ -1,0 +1,23 @@
+<?php
+
+return [
+
+    'name' => env('APP_NAME', 'Sleep Haven'),
+    'env' => env('APP_ENV', 'local'),
+    'debug' => (bool) env('APP_DEBUG', true),
+    'url' => env('APP_URL', 'http://localhost:8000'),
+
+    'timezone' => env('APP_TIMEZONE', 'Asia/Jakarta'),
+    'locale' => env('APP_LOCALE', 'id'),
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
+    'faker_locale' => env('APP_FAKER_LOCALE', 'id_ID'),
+
+    'key' => env('APP_KEY'),
+    'cipher' => 'AES-256-CBC',
+
+    'maintenance' => [
+        'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
+        'store' => env('APP_MAINTENANCE_STORE', 'database'),
+    ],
+
+];
